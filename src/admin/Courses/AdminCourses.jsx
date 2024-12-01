@@ -155,7 +155,7 @@ const AdminCourses = ({ user }) => {
                   required
                 />
 
-                <input type="file"  onChange={changeImageHandler} />
+                <input type="file" required  onChange={changeImageHandler} />
                 {imagePrev && <img src={imagePrev} alt="" width={300} />}
 
                 <button
